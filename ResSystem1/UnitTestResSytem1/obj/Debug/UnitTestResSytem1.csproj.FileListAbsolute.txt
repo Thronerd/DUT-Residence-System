@@ -1,0 +1,7 @@
+C:\Users\samsungpc\Desktop\Ds3\ResSystem1\UnitTestResSytem1\bin\Debug\UnitTestResSytem1.dll
+C:\Users\samsungpc\Desktop\Ds3\ResSystem1\UnitTestResSytem1\bin\Debug\UnitTestResSytem1.pdb
+C:\Users\samsungpc\Desktop\Ds3\ResSystem1\UnitTestResSytem1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\samsungpc\Desktop\Ds3\ResSystem1\UnitTestResSytem1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\samsungpc\Desktop\Ds3\ResSystem1\UnitTestResSytem1\obj\Debug\UnitTestResSytem1.csprojResolveAssemblyReference.cache
+C:\Users\samsungpc\Desktop\Ds3\ResSystem1\UnitTestResSytem1\obj\Debug\UnitTestResSytem1.dll
+C:\Users\samsungpc\Desktop\Ds3\ResSystem1\UnitTestResSytem1\obj\Debug\UnitTestResSytem1.pdb

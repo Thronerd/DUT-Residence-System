@@ -1,0 +1,62 @@
+﻿
+<script>
+    //$(document).ready(function () {
+
+        function Myfunction()
+        {
+            var rmtype = $("#RmType").val();
+
+            if(rmtype == "Double")
+            {
+                $("#Display").html("2 beds, 1 Fridge");
+            }
+            else
+                if (rmtype == "Single")
+            {
+                    $("#Display").html("1 beds, 1 Fridge");
+                }
+                else {
+                        $("#Display").html("");
+                    }
+        }
+    //});
+</script>
+
+
+<div class="col-md-8">
+    <!--   Kitchen Sink -->
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Booking
+        </div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Room Type</th>
+                            <th>Reservation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                            @Html.DropDownList("RmType", (SelectList)ViewBag.RmType, "Select Room type", new { @class = "form-control", onchange = "Myfunction()" })
+
+                        
+                            
+                            @*<select name="RmType">
+                                <option value="">Select Room type</option>
+                                </select></td>*@
+                            <td><input type="submit" value="Reserv"/></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p id="Display"></p>
+            </div>
+        </div>
+    </div>
+    <!-- End  Kitchen Sink -->
+</div>
+
+@Html.Partial("_BookingPartial")
